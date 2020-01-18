@@ -11,6 +11,6 @@ fs.writeFile(file, body.body, (err) => {
         throw err;
     };
 
-    console.log(`Downloaded and saved  ${body.length} bytes to ${file}`)
+    console.log(`Downloaded and saved  ${body.body.length} bytes to ${file}`)
   })
 });
